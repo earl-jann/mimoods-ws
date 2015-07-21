@@ -1,0 +1,4 @@
+{ "_id" : { "$oid" : "55aa889241bc4dfc0ca32000" }, "email" : "earljann.tormes@misys.com", "hashed_password" : "jy+mA6n2aeOcLJcj7uHc69Ej1HPVNA9m1aafp8MKROlJizM7eeG4HFkQUze+yWofF/bGjzQPUv7/yapZoIR0yA==", "salt" : "NOwv0/uS7zMHrsJ1FD4bjg==", "username" : "earl_jann", "name" : "earl", "provider" : "local", "roles" : [ "authenticated" ], "__v" : 0 }
+{ "_id" : { "$oid" : "55ac938041bc4dfc0ca32005" }, "name" : "earl", "roles" : [ "authenticated", "admin" ] }
+{ "_id" : { "$oid" : "55ac9b5441bc4dfc0ca32006" }, "email" : "robert.niebres@misys.com", "name" : "Robert", "username" : "rniebres", "hashed_password" : "d3ygvUPsGHdaTPs1Ztv/IAOxgtm7kdPnpNEfcRIxvLva6ZXhVON1yk2G8TEzp5MZBseiPYrEYZyY5kvBHnAVgQ==", "salt" : "t7KvGzV+vYo9MSr3ByMb8w==", "provider" : "local", "roles" : [ "admin" ], "__v" : 0 }
+{ "_id" : { "$oid" : "55ace3ce41bc4dfc0ca32007" }, "name" : "admin", "username" : "admin", "email" : "admin@admin.com", "roles" : [ "authenticated", "admin" ] }

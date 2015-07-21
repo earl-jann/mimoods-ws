@@ -1,0 +1,4 @@
+{ "_id" : { "$oid" : "55ace940a51c31f4105fa529" }, "user" : { "$oid" : "55aa889241bc4dfc0ca32000" }, "mood" : "HAPPY", "created" : { "$date" : "2015-07-20T20:27:44.947+0800" }, "__v" : 0, "article" : { "$oid" : "55ac905741bc4dfc0ca32001" } }
+{ "_id" : { "$oid" : "55ace943a51c31f4105fa52a" }, "user" : { "$oid" : "55aa889241bc4dfc0ca32000" }, "mood" : "HAPPY", "created" : { "$date" : "2015-07-20T20:27:47.978+0800" }, "__v" : 0, "article" : { "$oid" : "55ac905741bc4dfc0ca32001" } }
+{ "_id" : { "$oid" : "55ace944a51c31f4105fa52b" }, "user" : { "$oid" : "55aa889241bc4dfc0ca32000" }, "mood" : "HAPPY", "created" : { "$date" : "2015-07-20T20:27:48.641+0800" }, "__v" : 0, "article" : { "$oid" : "55ac905741bc4dfc0ca32001" } }
+{ "_id" : { "$oid" : "55add0dbc262635402eca56a" }, "user" : { "$oid" : "55add0dbc262635402eca56b" }, "mood" : "SAD", "created" : { "$date" : "2015-07-21T12:55:55.890+0800" }, "__v" : 0 }
