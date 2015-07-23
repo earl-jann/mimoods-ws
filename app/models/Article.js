@@ -36,7 +36,6 @@ var ArticleSchema = new Schema({
   },
   slug: {
 	type: String,
-	required: true,
 	trim: true
   },
   comments: [Comment.schema]

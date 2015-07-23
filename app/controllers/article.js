@@ -156,35 +156,18 @@ exports.createMood = function(req, res, next) {
             if (article) {
 				// fill in values
 				// find user email
-				User.findByEmail(req.body.email, function(err, user) {
+				var moodModel = new ArticleMood(req.body);
+				moodModel.save(function(err, result) {
 					if (err) {
 						res.json({
-						   type: false,
+							type: false,
 							data: "Error occured: " + err
 						});
-					} else {
-						if (user) {
-							var moodModel = new ArticleMood(req.body);
-							moodModel.user = mongoose.Types.ObjectId(user._id);
-							moodModel.save(function(err, result) {
-								if (err) {
-									res.json({
-									    type: false,
-										data: "Error occured: " + err
-									});
-								}else {
-									res.json({
-								   type: true,
-								   data: result
-									});
-								}
-							});
-						} else {
-							res.json({
-							type: false,
-							data: "User: " + req.body.email + " not found"
-							});
-						}
+					}else {
+						res.json({
+						   type: true,
+						   data: result
+						});
 					}
 				});
             } else {

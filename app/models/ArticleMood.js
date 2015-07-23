@@ -12,9 +12,8 @@ var ArticleMoodSchema = new Schema({
     type: Date,
     default: Date.now
   }, 
-  user: {
-    type: Schema.ObjectId,
-    ref: 'User'
+  email: {
+    type: String
   },
   mood: {
 	type: String,

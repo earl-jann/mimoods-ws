@@ -27,6 +27,7 @@ server.get({path: "/articles/:id", version: "2.0.0"}, controllers.article.show_v
 server.put("/articles/:id/moods", controllers.article.createMood)
 server.get("/articles/:id/moods/:moodId", controllers.articlemood.show);
 server.get("/articles/:id/moods", controllers.articlemood.all)
+//server.post("/articles/:id/moods", controllers.article.createMood);
 
 // comment operations referenced in article
 server.put("/articles/:id/comments", controllers.article.createComment)
